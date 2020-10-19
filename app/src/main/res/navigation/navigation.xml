@@ -9,5 +9,14 @@
         android:id="@+id/titleFragment"
         android:name="com.example.safepasswordmanager.fragments.TitleFragment"
         android:label="fragment_title"
-        tools:layout="@layout/fragment_title" />
+        tools:layout="@layout/fragment_title" >
+        <action
+            android:id="@+id/action_titleFragment_to_blankFragment"
+            app:destination="@id/blankFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragment"
+        android:name="com.example.safepasswordmanager.fragments.BlankFragment"
+        android:label="fragment_password_details"
+        tools:layout="@layout/fragment_password_details" />
 </navigation>
