@@ -14,15 +14,16 @@ import com.example.safepasswordmanager.R
 
 /**
  * A simple [Fragment] subclass.
- * Use the [BlankFragment.newInstance] factory method to
+ * Use the [PasswordDetailsFragment.newInstance] factory method to
  * create an instance of this fragment.
  */
-class BlankFragment : Fragment() {
+class PasswordDetailsFragment : Fragment() {
     // TODO: Rename and change types of parameters
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
-        Toast.makeText(activity,"onCreateView",Toast.LENGTH_SHORT).show()
+        var args = PasswordDetailsFragmentArgs.fromBundle(arguments)
+        Toast.makeText(activity,"Primio sam argumente: pozicija: ${args.passwordID}",Toast.LENGTH_SHORT).show()
 
         return inflater.inflate(R.layout.fragment_password_details, container, false)
 

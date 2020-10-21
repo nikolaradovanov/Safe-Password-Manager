@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.navigation:navigation-dynamic-features-fragment:2.3.1@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d96de5fa3ae72e11d0e1a7c4daa53d09/jetified-navigation-dynamic-features-fragment-2.3.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d96de5fa3ae72e11d0e1a7c4daa53d09/jetified-navigation-dynamic-features-fragment-2.3.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d96de5fa3ae72e11d0e1a7c4daa53d09/jetified-navigation-dynamic-features-fragment-2.3.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/67b5731363d81a80f437c397ad5b4827/jetified-navigation-dynamic-features-fragment-2.3.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/67b5731363d81a80f437c397ad5b4827/jetified-navigation-dynamic-features-fragment-2.3.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/67b5731363d81a80f437c397ad5b4827/jetified-navigation-dynamic-features-fragment-2.3.1/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

@@ -16,7 +16,11 @@
     </fragment>
     <fragment
         android:id="@+id/blankFragment"
-        android:name="com.example.safepasswordmanager.fragments.BlankFragment"
+        android:name="com.example.safepasswordmanager.fragments.PasswordDetailsFragment"
         android:label="fragment_password_details"
-        tools:layout="@layout/fragment_password_details" />
+        tools:layout="@layout/fragment_password_details" >
+        <argument
+            android:name="passwordID"
+            app:argType="integer" />
+    </fragment>
 </navigation>

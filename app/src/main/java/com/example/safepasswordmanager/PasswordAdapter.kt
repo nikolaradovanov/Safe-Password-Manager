@@ -5,6 +5,8 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
+import com.example.safepasswordmanager.fragments.TitleFragment
+import com.example.safepasswordmanager.fragments.TitleFragmentDirections
 import com.example.safepasswordmanager.models.Password
 import java.util.ArrayList
 
@@ -24,8 +26,8 @@ class PasswordAdapter() : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
                 holder.bind(items.get(position))
                 holder.itemView.setOnClickListener(){
                     var  pozicija = position.toString()
-                    Toast.makeText( it.context ,pozicija, Toast.LENGTH_SHORT).show()
-                    it.findNavController().navigate(R.id.action_titleFragment_to_blankFragment)
+                    //Toast.makeText( it.context ,pozicija, Toast.LENGTH_SHORT).show()
+                    it.findNavController().navigate(TitleFragmentDirections.actionTitleFragmentToBlankFragment(position))
                 }
             }
         }
