@@ -1,3 +1,7 @@
 
 .gradle/
 .idle/
+
+.idea/caches/
+
+.idea/modules/app/
