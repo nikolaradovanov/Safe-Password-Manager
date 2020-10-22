@@ -42,6 +42,7 @@ class PasswordDetailsFragment : Fragment() {
             5 -> myClipArt.setImageResource(R.drawable.gmail)
             else -> myClipArt.setImageResource(R.drawable.internet)
         }
+        view.pwTitleDetails.setText(niz.get(args.passwordID).site)
        //Toast.makeText(activity,"Primio sam argumente: pozicija: ${args.passwordID}",Toast.LENGTH_SHORT).show()
 
         return view
