@@ -1,8 +1,8 @@
-package com.example.safepasswordmanager
+package com.ovdebeli.safepasswordmanager
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
-import com.example.safepasswordmanager.models.Password
+import com.ovdebeli.safepasswordmanager.models.Password
 import kotlinx.android.synthetic.main.password_list_item.view.*
 
 

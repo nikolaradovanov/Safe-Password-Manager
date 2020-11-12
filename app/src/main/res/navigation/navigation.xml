@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/titleFragment"
-        android:name="com.example.safepasswordmanager.fragments.TitleFragment"
+        android:name="com.ovdebeli.safepasswordmanager.fragments.TitleFragment"
         android:label="fragment_title"
         tools:layout="@layout/fragment_title" >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/blankFragment"
-        android:name="com.example.safepasswordmanager.fragments.PasswordDetailsFragment"
+        android:name="com.ovdebeli.safepasswordmanager.fragments.PasswordDetailsFragment"
         android:label="fragment_password_details"
         tools:layout="@layout/fragment_password_details" >
         <argument

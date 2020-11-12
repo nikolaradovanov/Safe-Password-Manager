@@ -1,13 +1,11 @@
-package com.example.safepasswordmanager
+package com.ovdebeli.safepasswordmanager
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
-import com.example.safepasswordmanager.fragments.TitleFragment
-import com.example.safepasswordmanager.fragments.TitleFragmentDirections
-import com.example.safepasswordmanager.models.Password
+import com.ovdebeli.safepasswordmanager.fragments.TitleFragmentDirections
+import com.ovdebeli.safepasswordmanager.models.Password
 import java.util.ArrayList
 
 class PasswordAdapter() : RecyclerView.Adapter<RecyclerView.ViewHolder>() {

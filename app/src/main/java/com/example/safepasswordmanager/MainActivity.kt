@@ -1,4 +1,4 @@
-package com.example.safepasswordmanager
+package com.ovdebeli.safepasswordmanager
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

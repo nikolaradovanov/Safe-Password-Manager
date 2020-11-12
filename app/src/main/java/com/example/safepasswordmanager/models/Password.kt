@@ -1,4 +1,4 @@
-package com.example.safepasswordmanager.models
+package com.ovdebeli.safepasswordmanager.models
 
 class Password(
     var password: String,

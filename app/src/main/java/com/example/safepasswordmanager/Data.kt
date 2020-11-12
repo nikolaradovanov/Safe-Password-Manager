@@ -1,6 +1,6 @@
-package com.example.safepasswordmanager
+package com.ovdebeli.safepasswordmanager
 
-import com.example.safepasswordmanager.models.Password
+import com.ovdebeli.safepasswordmanager.models.Password
 
 class Data {
     companion object{

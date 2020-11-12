@@ -1,4 +1,4 @@
-package com.example.safepasswordmanager
+package com.ovdebeli.safepasswordmanager
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

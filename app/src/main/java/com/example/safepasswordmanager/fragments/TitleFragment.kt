@@ -1,4 +1,4 @@
-package com.example.safepasswordmanager.fragments
+package com.ovdebeli.safepasswordmanager.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,9 +6,9 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.safepasswordmanager.Data
-import com.example.safepasswordmanager.PasswordAdapter
-import com.example.safepasswordmanager.R
+import com.ovdebeli.safepasswordmanager.Data
+import com.ovdebeli.safepasswordmanager.PasswordAdapter
+import com.ovdebeli.safepasswordmanager.R
 import kotlinx.android.synthetic.main.fragment_title.*
 
 class TitleFragment : Fragment() {
