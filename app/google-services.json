@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "27854508605",
+    "firebase_url": "https://safepasswordmanager-id.firebaseio.com",
+    "project_id": "safepasswordmanager-id",
+    "storage_bucket": "safepasswordmanager-id.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27854508605:android:88070532b587998c6d1054",
+        "android_client_info": {
+          "package_name": "com.ovdebeli.safepasswordmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "27854508605-ro33lrp0u7sldr9n2qq03oucljbefpen.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIMRkXUWKXfcOT0qj64TAZ3YYHcyHIxMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "27854508605-ro33lrp0u7sldr9n2qq03oucljbefpen.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

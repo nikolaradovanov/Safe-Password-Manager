@@ -6,10 +6,12 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.google.firebase.database.FirebaseDatabase
 import com.ovdebeli.safepasswordmanager.Data
 import com.ovdebeli.safepasswordmanager.PasswordAdapter
 import com.ovdebeli.safepasswordmanager.R
 import kotlinx.android.synthetic.main.fragment_title.*
+
 
 class TitleFragment : Fragment() {
 
@@ -19,6 +21,10 @@ class TitleFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+        val database = FirebaseDatabase.getInstance()
+        val myRef = database.getReference("message")
+
+        myRef.setValue("Hello, World!")
         return inflater.inflate(R.layout.fragment_title, container, false)
     }
 

@@ -9,6 +9,7 @@ import androidx.databinding.DataBindingUtil
 import com.ovdebeli.safepasswordmanager.Data
 import com.ovdebeli.safepasswordmanager.R
 import com.ovdebeli.safepasswordmanager.databinding.FragmentPasswordDetailsBinding
+import kotlinx.android.synthetic.main.fragment_password_details.view.*
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER

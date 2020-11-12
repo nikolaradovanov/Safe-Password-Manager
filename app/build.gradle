@@ -3,6 +3,7 @@ plugins {
     id 'kotlin-android'
     id 'kotlin-android-extensions'
     id 'androidx.navigation.safeargs'
+    id 'com.google.gms.google-services'
 }
 
 
@@ -11,7 +12,7 @@ android {
     buildToolsVersion "30.0.2"
 
     defaultConfig {
-        applicationId "com.example.safepasswordmanager"
+        applicationId "com.ovdebeli.safepasswordmanager"
         minSdkVersion 19
         targetSdkVersion 30
         versionCode 1
@@ -29,8 +30,12 @@ android {
         }
     }
 
-    dataBinding{
-        enabled=true
+
+
+    buildFeatures {
+
+        dataBinding true
+
     }
 
     compileOptions {
@@ -45,6 +50,7 @@ android {
 dependencies {
 
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.google.firebase:firebase-database:19.5.1'
     def nav_version = "2.3.1"
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
