@@ -11,6 +11,14 @@ import com.ovdebeli.safepasswordmanager.Data
 import com.ovdebeli.safepasswordmanager.PasswordAdapter
 import com.ovdebeli.safepasswordmanager.R
 import kotlinx.android.synthetic.main.fragment_title.*
+import com.google.firebase.database.DatabaseError
+
+import com.google.firebase.database.DataSnapshot
+
+import com.google.firebase.database.ValueEventListener
+
+
+
 
 
 class TitleFragment : Fragment() {
@@ -18,13 +26,13 @@ class TitleFragment : Fragment() {
     private lateinit var pwAdapter: PasswordAdapter
 
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
+            inflater: LayoutInflater, container: ViewGroup?,
+            savedInstanceState: Bundle?
     ): View? {
-        val database = FirebaseDatabase.getInstance()
-        val myRef = database.getReference("message")
+        //konekcija sa bazom
 
-        myRef.setValue("Hello, World!")
+
+
         return inflater.inflate(R.layout.fragment_title, container, false)
     }
 
@@ -32,6 +40,10 @@ class TitleFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         initRecyclerView()
         addDataSet()
+        val database = FirebaseDatabase.getInstance()
+        val myRef = database.getReference("message")
+        myRef.setValue("Hello, World!")
+
 
     }
 
@@ -44,8 +56,5 @@ class TitleFragment : Fragment() {
         recycler_view.layoutManager = LinearLayoutManager(activity)
         pwAdapter = PasswordAdapter()
         recycler_view.adapter = pwAdapter
-
-
-
     }
 }
