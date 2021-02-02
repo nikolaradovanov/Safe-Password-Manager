@@ -9,7 +9,7 @@ import androidx.room.RoomDatabase
 
 
 @Database (entities = [PasswordData::class],version = 1,exportSchema = false)
-abstract class PasswordDatabase:RoomDatabase(){
+abstract class  PasswordDatabase:RoomDatabase(){
  abstract val passwordDataDao:PasswordDatabaseDao
  companion object{
      @Volatile

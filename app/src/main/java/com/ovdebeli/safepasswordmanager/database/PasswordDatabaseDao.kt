@@ -1,12 +1,13 @@
 package com.ovdebeli.safepasswordmanager.database
 
+import androidx.lifecycle.LiveData
 import androidx.room.*
 
 @Dao
 interface PasswordDatabaseDao {
 
     @Insert
-    fun insert(pw:PasswordData)
+    suspend fun insert(pw:PasswordData)
 
     @Update
     fun update(pw: PasswordData)
@@ -18,7 +19,7 @@ interface PasswordDatabaseDao {
     fun clear()
 
      @Query("Select * from password_table")
-     fun getAll():List<PasswordData>
+     fun getAll(): LiveData<List<PasswordData>>
 
 
 }

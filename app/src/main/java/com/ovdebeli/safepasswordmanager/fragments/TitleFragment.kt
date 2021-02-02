@@ -1,5 +1,6 @@
 package com.ovdebeli.safepasswordmanager.fragments
 
+import android.app.Application
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -16,9 +17,7 @@ import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.DataSnapshot
 
 import com.google.firebase.database.ValueEventListener
-
-
-
+import com.ovdebeli.safepasswordmanager.database.PasswordDatabase
 
 
 class TitleFragment : Fragment() {
@@ -30,8 +29,7 @@ class TitleFragment : Fragment() {
             savedInstanceState: Bundle?
     ): View? {
         //konekcija sa bazom
-
-
+       
 
         return inflater.inflate(R.layout.fragment_title, container, false)
     }
